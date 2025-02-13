@@ -1,4 +1,4 @@
-FROM public.ecr.aws/spacelift/runner-ansible:11-azure
+FROM public.ecr.aws/spacelift/runner-ansible:11.1-azure-linux-amd64
 
 USER root
 
@@ -12,3 +12,4 @@ ENV SHELL=/bin/bash
 
 # Set bash as default shell
 SHELL ["/bin/bash", "-c"]
+
